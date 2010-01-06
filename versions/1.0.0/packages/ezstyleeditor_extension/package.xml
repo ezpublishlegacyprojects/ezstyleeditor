@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package version="3.5.2" development="false" install_type="install">
+  <name>ezstyleeditor_extension</name>
+  <summary>ezstyleeditor_extension</summary>
+  <description>This package contains the ezstyleeditor eZ Publish extension</description>
+  <vendor>eZ systems</vendor>
+  <type value="extension"/>
+  <ezpublish>
+    <version>4.3.0alpha1</version>
+    <named-version>4.3alpha1</named-version>
+  </ezpublish>
+  <maintainers>
+    <maintainer>
+      <name>Administrator User</name>
+      <email>nospam@ez.no</email>
+      <role>lead</role>
+    </maintainer>
+  </maintainers>
+  <packaging>
+    <timestamp>1257338355</timestamp>
+    <host>localhost</host>
+  </packaging>
+  <documents>
+    <document mime-type="text/plain" name="LICENCE"/>
+  </documents>
+  <changelog>
+    <entry timestamp="1257338355" person="Administrator User" email="nospam@ez.no" release="1">
+      <change>Creation of package.</change>
+    </entry>
+  </changelog>
+  <simple-files/>
+  <version>
+    <number>1.0</number>
+    <release>1</release>
+  </version>
+  <licence>GPL</licence>
+  <state>stable</state>
+  <dependencies>
+    <provides/>
+    <requires/>
+    <obsoletes/>
+    <conflicts/>
+  </dependencies>
+  <install>
+    <item type="ezextension" filename="extension-ezstyleeditor" sub-directory="ezextension"/>
+  </install>
+  <uninstall>
+    <item type="ezextension" filename="extension-ezstyleeditor" sub-directory="ezextension"/>
+  </uninstall>
+</package>
